@@ -9,6 +9,7 @@ import com.org.util.JsonResult;
  * @Date
  */
 public class ResultTool {
+
     public static JsonResult success() {
         return new JsonResult(true);
     }
@@ -24,4 +25,6 @@ public class ResultTool {
     public static JsonResult fail(ResultCode resultEnum) {
         return new JsonResult(false, resultEnum);
     }
+
 }
+

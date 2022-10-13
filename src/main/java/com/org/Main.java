@@ -9,6 +9,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationHandler;
@@ -22,6 +23,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 @SpringBootApplication()
 @MapperScan("com.org.mapper")
+@EnableScheduling
 public class Main {
 
     public static ConfigurableApplicationContext ac;
