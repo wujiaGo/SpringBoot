@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e8b4dae-9592-446d-9eca-51e1804596ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/controller/CodeGeneratorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/controller/KafkaSyncProducerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/controller/WujiaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/io/Bio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/kafka/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/kafka/ProducerRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/mapper/SysPermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/mapper/SysRequestPathMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/mapper/SysRequestPathPermissionRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/mapper/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/mapper/SysRolePermissionRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/mapper/SysUserRoleRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/mapper/WujiaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/mybatis_plus/handler/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pojo/Flow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pojo/SysPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pojo/SysRequestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pojo/SysRequestPathPermissionRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pojo/SysRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pojo/SysRolePermissionRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pojo/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pojo/SysUserRoleRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pojo/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pojo/Wujia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pool/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pool/ResultTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pool/SexEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pro/FlowPush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pro/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pro/sevice/ElevatorSysPush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pro/sevice/ManpowerSysPush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/pro/sevice/ThreadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/security/Handler/CustomizeAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/security/Handler/CustomizeAuthenticationFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/security/Handler/CustomizeAuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/security/Handler/CustomizeLogoutSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/security/Handler/CustomizeSessionInformationExpiredStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/security/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/security/filter/CustomizeAbstractSecurityInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/security/filter/CustomizeAccessDecisionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/security/filter/CustomizeFilterInvocationSecurityMetadataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/service/SysPermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/service/SysRequestPathPermissionRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/service/SysRequestPathService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/service/SysRolePermissionRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/service/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/service/SysUserRoleRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/service/impl/SysPermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/service/impl/SysRequestPathPermissionRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/service/impl/SysRequestPathServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/service/impl/SysRolePermissionRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/service/impl/SysUserRoleRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/util/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/util/JsonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/org/util/SpringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysPermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysRequestPathMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysRequestPathPermissionRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysRolePermissionRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysUserRoleRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/WujiaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/SpringBoot.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/config/WebSecurityConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/config/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/controller/CodeGeneratorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/controller/KafkaSyncProducerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/controller/WujiaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/io/Bio$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/io/Bio$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/io/Bio$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/io/Bio$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/io/Bio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/kafka/KafkaConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/kafka/ProducerRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/mapper/SysPermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/mapper/SysRequestPathMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/mapper/SysRequestPathPermissionRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/mapper/SysRoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/mapper/SysRolePermissionRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/mapper/SysUserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/mapper/SysUserRoleRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/mapper/WujiaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/mybatis_plus/handler/MyMetaObjectHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pojo/Flow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pojo/SysPermission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pojo/SysRequestPath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pojo/SysRequestPathPermissionRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pojo/SysRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pojo/SysRolePermissionRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pojo/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pojo/SysUserRoleRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pojo/ThreadTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pojo/Wujia.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pool/ProxyFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pool/ResultTool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pool/SexEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pro/FlowPush.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pro/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pro/sevice/ElevatorSysPush.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pro/sevice/ManpowerSysPush.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pro/sevice/ThreadService$Eeee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pro/sevice/ThreadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/security/Handler/CustomizeAuthenticationEntryPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/security/Handler/CustomizeAuthenticationFailureHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/security/Handler/CustomizeAuthenticationSuccessHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/security/Handler/CustomizeLogoutSuccessHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/security/Handler/CustomizeSessionInformationExpiredStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/security/ResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/security/UserDetailsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/security/filter/CustomizeAbstractSecurityInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/security/filter/CustomizeAccessDecisionManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/security/filter/CustomizeFilterInvocationSecurityMetadataSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/service/SysPermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/service/SysRequestPathPermissionRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/service/SysRequestPathService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/service/SysRolePermissionRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/service/SysRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/service/SysUserRoleRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/service/SysUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/service/impl/SysPermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/service/impl/SysRequestPathPermissionRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/service/impl/SysRequestPathServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/service/impl/SysRolePermissionRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/service/impl/SysRoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/service/impl/SysUserRoleRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/util/CodeGenerator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/util/CodeGenerator$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/util/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/util/JsonResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/util/SpringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SysPermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SysRequestPathMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SysRequestPathPermissionRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SysRolePermissionRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SysUserRoleRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/WujiaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="275" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="b0aa4924-a508-4a6e-b0cf-c49359a0ae0b" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven\repository" />
+        <option name="mavenHome" value="E:/maven/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="E:\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2FNiMbQC4VC2LPzYgSoVeWZTGQv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/wujia" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/org/service" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.6130515" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SpringBoot\src\main\java\com\org\service" />
+      <recent name="D:\SpringBoot\src\main\java\com\wujia" />
+      <recent name="D:\SpringBoot\src\main\java\com\org\mapper" />
+      <recent name="D:\SpringBoot\src\main\java\com\org\pojo" />
+      <recent name="D:\SpringBoot\src\main\resources\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.org.pojo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SpringBoot\src\main\resources\mapper" />
+      <recent name="D:\SpringBoot\src\main\java\com\org\mapper\xml" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringBoot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.org.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.org.Main" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.92" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_SpringBoot" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="43911" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="DEBUG_PORT" value="43912" />
+        <option name="visualVMId" value="309205921097100" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="43914" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="DEBUG_PORT" value="43915" />
+        <option name="visualVMId" value="309206710240800" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration useDefault="false">C:\Program Files\TortoiseSVN\bin</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e8b4dae-9592-446d-9eca-51e1804596ff" name="Default Changelist" comment="" />
+      <created>1664338895092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664338895092</updated>
+      <workItem from="1664338897172" duration="7211000" />
+      <workItem from="1665280777544" duration="2128000" />
+      <workItem from="1665387490620" duration="27239000" />
+      <workItem from="1665497620936" duration="10263000" />
+      <workItem from="1665578065311" duration="4543000" />
+      <workItem from="1665648944645" duration="18306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/org/controller/CodeGeneratorController.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="grantedAuthorities" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SpringBoot$Main.ic" NAME="Main Coverage Results" MODIFIED="1665664815001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.org.*</FILTER>
+    </SUITE>
+  </component>
+</project>
