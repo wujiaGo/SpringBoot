@@ -41,7 +41,6 @@ public class QuartzJobController {
         Page<QuartzJob> page = new Page<QuartzJob>(pageNo, pageSize);
         IPage<QuartzJob> pageList = quartzJobService.page(page);
         return Result.ok(pageList);
-
     }
 
 

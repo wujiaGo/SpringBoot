@@ -2,23 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e8b4dae-9592-446d-9eca-51e1804596ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/Quartz/QuartzDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/controller/QuartzJobController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/mapper/QuartzJobMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pojo/QuartzJob.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pool/CommonConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/pool/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/redis/RedisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/service/IQuartzJobService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/org/service/impl/QuartzJobServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springboot2022-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/springboot2022-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/Quartz/QuartzDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/Quartz/QuartzDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/controller/QuartzJobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/controller/QuartzJobController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/org/mapper/SysPermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/mapper/SysPermissionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/pool/ResultTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/pool/ResultTool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/security/Handler/CustomizeAuthenticationFailureHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/security/Handler/CustomizeAuthenticationFailureHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/security/Handler/CustomizeAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/security/Handler/CustomizeAuthenticationSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/security/Handler/CustomizeLogoutSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/security/Handler/CustomizeLogoutSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/pojo/QuartzJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/pojo/QuartzJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/pojo/Wujia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/pojo/Wujia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/org/security/Handler/CustomizeSessionInformationExpiredStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/security/Handler/CustomizeSessionInformationExpiredStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/security/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/security/ResultCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/security/filter/CustomizeFilterInvocationSecurityMetadataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/security/filter/CustomizeFilterInvocationSecurityMetadataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/org/service/impl/QuartzJobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/org/service/impl/QuartzJobServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/org/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/Main$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/org/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/pojo/Wujia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/pojo/Wujia.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/org/pool/ResultTool.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/pool/ResultTool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/org/security/Handler/CustomizeSessionInformationExpiredStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/security/Handler/CustomizeSessionInformationExpiredStrategy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/org/security/filter/CustomizeFilterInvocationSecurityMetadataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/org/security/filter/CustomizeFilterInvocationSecurityMetadataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +76,13 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -87,13 +112,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/wujia" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/org/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/springboot2022-1.0-SNAPSHOT.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6130515" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -123,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Main">
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="SpringBoot" />
       <extension name="coverage">
@@ -134,6 +159,110 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.org.Main" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 7.0.92" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.92" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/springboot2022_1_0_SNAPSHOT_jar/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$/target/springboot2022-1.0-SNAPSHOT.jar">
+          <settings>
+            <option name="CONTEXT_PATH" value="/springboot2022_1_0_SNAPSHOT_jar" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_92_SpringBoot" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="43911" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Debug with VisualVM">
+        <option name="DEBUG_PORT" value="43912" />
+        <option name="visualVMId" value="309205921097100" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run with VisualVM">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -270,6 +399,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Main" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.92" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration useDefault="false">C:\Program Files\TortoiseSVN\bin</configuration>
@@ -288,8 +421,21 @@
       <workItem from="1665578065311" duration="4543000" />
       <workItem from="1665648944645" duration="19537000" />
       <workItem from="1665669231872" duration="651000" />
-      <workItem from="1665679157908" duration="4946000" />
+      <workItem from="1665679157908" duration="5116000" />
+      <workItem from="1665720563788" duration="3053000" />
+      <workItem from="1665748421847" duration="1455000" />
+      <workItem from="1665915521545" duration="10702000" />
+      <workItem from="1665932161916" duration="981000" />
+      <workItem from="1665933348833" duration="2157000" />
     </task>
+    <task id="LOCAL-00001" summary="新增任务调度">
+      <created>1665684522413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665684522413</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +453,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增任务调度" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增任务调度" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

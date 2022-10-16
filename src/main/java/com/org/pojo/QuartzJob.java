@@ -28,6 +28,7 @@ public class QuartzJob implements Serializable {
      * cron表达式
      */
     private String cronExpression;
+
     /**
      * 参数
      */

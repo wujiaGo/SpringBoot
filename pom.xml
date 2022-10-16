@@ -47,11 +47,6 @@
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
-        <!-- devtools -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-        </dependency>
         <!-- mp 代码生成器 依赖 -->
         <dependency>
             <groupId>com.baomidou</groupId>

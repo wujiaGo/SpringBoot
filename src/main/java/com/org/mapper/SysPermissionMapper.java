@@ -18,7 +18,7 @@ import java.util.List;
 @Mapper
 public interface SysPermissionMapper extends BaseMapper<SysPermission> {
 
-    public List<SysPermission> selectListByUser(Integer userId);
+    List<SysPermission> selectListByUser(Integer userId);
 
     /**
      * 查询具体某个接口的权限

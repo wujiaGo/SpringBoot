@@ -6,10 +6,7 @@ import org.quartz.JobExecutionException;
 
 import java.util.Date;
 
-/**
- * @author
- * @date 20-2-5 下午3:11
- */
+
 public class QuartzDemo implements Job {
 
 

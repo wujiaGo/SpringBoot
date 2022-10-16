@@ -24,6 +24,7 @@ public class CustomizeSessionInformationExpiredStrategy implements SessionInform
         JsonResult result = ResultTool.fail(ResultCode.USER_ACCOUNT_USE_BY_OTHERS);
         HttpServletResponse httpServletResponse = sessionInformationExpiredEvent.getResponse();
         httpServletResponse.setContentType("text/json;charset=utf-8");
+
         httpServletResponse.getWriter().write(JSON.toJSONString(result));
     }
 }
